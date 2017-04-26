@@ -81,7 +81,7 @@ You can clean up all the configurations done (to ipvs, iptables, ip routes) by k
  kube-router --cleanup-config
 ```
 
-#### trying kube-router as alternative to kube-proxy
+### trying kube-router as alternative to kube-proxy
 
 If you have a kube-proxy in use, and want to try kube-router just for service proxy you can do
 ```
@@ -170,9 +170,9 @@ local node routing table. On the data path, inter node pod-to-pod communication 
 
 
 ## TODO
-- convert Kube-router to docker image and run it as daemonset
+- ~~convert Kube-router to docker image and run it as daemonset~~
 - heathcheck pods
-- get pod CIDR from node.PodCidr when kube-controller-manager is run with `--allocate-node-cidrs=true` option
+- ~~get pod CIDR from node.PodCidr when kube-controller-manager is run with `--allocate-node-cidrs=true` option~~
 
 ## Acknowledgement
 
