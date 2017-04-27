@@ -63,7 +63,7 @@ Also you can choose to run kube-router as agent running on each cluster node. Al
 
 This is quickest way to deploy kube-router. Just run
 
-`kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/readme/daemonset/kube-router-all-service-daemonset.yaml`
+`kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kube-router-all-service-daemonset.yaml`
 
 Above will run kube-router as pod on each node automatically. You can change the arguments in the daemonset definition as required to suit your needs. Some samples can be found at https://github.com/cloudnativelabs/kube-router/tree/readme/daemonset with different argument to select set of the services kube-router should run.
 
