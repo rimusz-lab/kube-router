@@ -15,6 +15,10 @@ We have Kube-proxy which provides service proxy and load balancer. We have sever
 
 - Kube-router builds on standard Linux technologies, so you can verify the configuration and troubleshoot with Linux networking tools (ipvsadm, ip route, iptables, ipset etc).
 
+## See it in action
+
+<a href="https://asciinema.org/a/118056" target="_blank"><img src="https://asciinema.org/a/118056.png" /></a>
+
 ## Getting Started
 
 ### building
@@ -96,10 +100,6 @@ and if you want to move back to kube-proxy then clean up config done by kube-rou
  kube-router --cleanup-config
 ```
 and run kube-proxy with the configuration you have.
-
-## See it in action
-
-For a quick walkthrough of kube-router in action take a look at https://cloudnativelabs.github.io/blog/post/kube-router/
 
 ## Theory of Operation
 
